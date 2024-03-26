@@ -25,6 +25,7 @@ function createApp(database: Database) {
     res.json({ cost });
   });
   function parsePlainDate(dateString: string | undefined){
+    if(dateString){}
   }
   function parseDate(dateString: string | undefined): Date | undefined {
     if (dateString) {
