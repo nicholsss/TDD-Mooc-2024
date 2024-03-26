@@ -25,7 +25,8 @@ function createApp(database: Database) {
     res.json({ cost });
   });
   function parsePlainDate(dateString: string | undefined): Temporal.PlainDate | undefined{
-    if(dateString){return Temporal.PlainDate.from(dateString)}
+    if(dateString){
+      return Temporal.PlainDate.from(dateString)}
   }
   function parseDate(dateString: string | undefined): Date | undefined {
     if (dateString) {
