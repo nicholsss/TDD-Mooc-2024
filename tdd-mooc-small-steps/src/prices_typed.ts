@@ -29,8 +29,7 @@ function createApp(database: Database) {
     }
   }
   function parseDate(dateString: string | undefined): Date | undefined {
-    if (dateString) {
-    }
+
   }
 
   function calculateCost(age: number | undefined, type: string,  baseCost: number, date2:Temporal.PlainDate | undefined) {
